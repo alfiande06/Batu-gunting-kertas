@@ -1,0 +1,392 @@
+/* BANNER */
+
+.banner {
+  background-image: url("assets/main-bg.jpg");
+  background-size: 100% 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+}
+
+.layanan {
+  background-image: url("assets/the-games-bg.jpg");
+  background-size: 100% 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+}
+.features {
+  background-image: url("assets/features.jpg");
+  background-size: 100% 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+}
+
+.requirements {
+  background-image: url("assets/requirements.png");
+  background-size: 100% 100%;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+}
+
+.top-score-bg {
+  background-image: url("assets/top-score-bg.png");
+  background-size: 100% 100%;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+  padding: 180px;
+}
+
+.subscribe {
+  background-image: url("assets/skull.png");
+  background-color: black;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  background-position-x: 25%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+
+/* NAVBAR CSS */
+
+.navbar {
+  /* Example with a black tint and 0.5 opacity. */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* RGB of 0,0,0 is black. */
+  color: #fff;
+}
+
+/* THE GAMES CSS */
+
+.carousel-indicators [data-bs-target] {
+	height: 10px;
+	width: 10px;
+	margin:0 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+  background-color:transparent;
+	border:1px solid white;
+	transition: all 0.3s ease;
+}
+.carousel-indicators .active{
+  background-color: #fff;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+	height: 60px;
+	width: 60px;
+	opacity: 1;
+	z-index: 3;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	transition: all 0.3s ease;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+.carousel-control-next:hover, 
+.carousel-control-prev:hover{
+   box-shadow: 0 0 10px #ffffff;
+}
+.carousel-control-next img, 
+.carousel-control-prev img{
+   width: 30px;
+}
+.home .carousel-control-next{
+	right: 50px;
+}
+.home .carousel-control-prev{
+	left: 50px;
+}
+
+body {
+  background-color: #f9f9fa
+}
+
+/* FEATURES CSS */
+
+.circle {
+  border-radius: 500px
+}
+
+
+.timeline {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15);
+  padding: 0;
+  margin: 0
+}
+
+.tl-item {
+  border-radius: 3px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.tl-item>* {
+  padding: 10px
+}
+
+
+.tl-item:last-child .tl-dot:after {
+  display: none
+}
+
+
+.tl-dot {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15)
+}
+
+.tl-dot2 {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15)
+}
+.tl-dot3 {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15)
+}
+
+.tl-dot:after,
+.tl-dot:before {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color : white ;
+}
+.tl-dot2:after,
+.tl-dot2:before {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+
+.tl-dot3:after,
+.tl-dot3:before {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.tl-dot:after {
+  width: 0;
+  height: auto;
+  top: 25px;
+  bottom: -10px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0
+}
+
+.b-warning {
+  border-color: #ffffff!important;
+}
+
+.b-primary {
+  border-color: #ffffff!important;
+}
+
+.b-danger {
+  border-color: #ffffff!important;
+}
+
+.color5 {
+  color : orange;
+}
+
+/* requirements */
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table.table-fit {
+  width: 60%;
+  position: relative;
+}
+
+/* FONT RESPONSIVE */
+
+@media only screen and (min-width: 1000px)  {
+
+	.h1 {
+		font-size:4vw;
+	}
+
+	.h3 {
+		font-size: 1.5vw;
+	}
+  .h4 {
+		font-size: 1.5vw;
+	}
+  .h5 {
+		font-size: 2vw;
+	}
+  .h7 {
+		font-size: 1vw;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+
+	.h1 {
+		font-size:4vw;
+	}
+
+	.h3 {
+		font-size: 1.5vw;
+	}
+  .h4 {
+		font-size: 1vw;
+	}
+  .h5 {
+		font-size: 1vw;
+	}
+  .h7 {
+		font-size: 1vw;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+  .h1 {
+		font-size: 2.2vm;
+	}
+	.h3 {
+		font-size: 2vw;
+	}
+  .h4 {
+		font-size: 1.8vw;
+	}
+  .h5 {
+		font-size: 1.7vw;
+	}
+  .h7 {
+		font-size: 1.5vw;
+	}
+}
+  /* CARD CSS */
+
+
+
+
+.color6 {
+  color: rgb(131, 87, 87);
+}
+
+.circle-img {
+  height: 61.626556396484375px;
+  width: 61.91632080078125px;
+  left: 738.462158203125px;
+  top: 386.48876953125px;
+  border-radius: [object Object]px;
+  
+}
+
+.circle-img img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  padding-bottom: 0%;
+}
+
+
+
+body {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  height: 100px;
+  bottom: 55px;
+  width: 100%;
+}
+
+.button1 {
+  left: 8.12%;
+  right: 73.79%;
+  top: 54.45%;
+  bottom: 39.3%;
+  height: 60px;
+width: 260.3616027832031px;
+left: 117px;
+top: 522.699951171875px;
+border-radius: 4px;
+background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+border-radius: 4px;
+  
+}
+
+.card1{
+  box-sizing: border-box;
+
+/* position: absolute;
+left: 50.12%;
+right: 18.36%;
+top: 38.76%;
+bottom: 39.89%;
+
+background: rgba(255, 255, 255, 0.08); */
+border-radius: 10px;
+/* height: 205px;
+width: 453.88677978515625px;
+left: 721.671875px;
+top: 372.06640625px; */
+border-radius: 10px;
+
+}
